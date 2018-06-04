@@ -59,7 +59,7 @@ print('Hello, World')
 #   Look at the Console to be sure that your string printed as expected.
 #
 ########################################################################
-
+print('This is Fun')
 ########################################################################
 #
 # TODO: 4.
@@ -73,7 +73,7 @@ print('Hello, World')
 #   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
 #
 ########################################################################
-
+print(3607 * 34227)
 ########################################################################
 #
 # TODO: 5.
@@ -83,7 +83,8 @@ print('Hello, World')
 #   see the blue font color).  That means that you have made changes to
 #   this file which have not yet been committed.
 #
-#   COMMIT your work by selecting VCS from the menu bar, then select Commit Changes
+#   COMMIT your work by selecting VCS from the menu bar,
+# then select Commit Changes
 #   Make sure only the files you want to commit are checked and optionally
 #   add a quick Commit message to describe your work.  Then hover over the
 #   Commit button and select Commit and Push.  Commit saves the work to
