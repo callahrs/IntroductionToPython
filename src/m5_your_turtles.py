@@ -31,7 +31,6 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 import rosegraphics as rg
 
 window = rg.TurtleWindow()
-
 blue_turtle = rg.SimpleTurtle('turtle')
 blue_turtle.pen = rg.Pen('blue', 2)
 blue_turtle.speed = 10  # Fast
@@ -44,5 +43,23 @@ for k in range(25):
     blue_turtle.right(45)
     blue_turtle.pen_down()
     size = size - 12
+
+red_turtle = rg.SimpleTurtle('arrow')
+red_turtle.pen = rg.Pen('red', 2)
+red_turtle.speed = 10  # Fast
+red_turtle.pen_up()
+red_turtle.left(45)
+red_turtle.backward(450)
+red_turtle.right(45)
+red_turtle.pen_down()
+size2 = 300
+for k in range(25):
+    red_turtle.draw_square(size2)
+    red_turtle.pen_up()
+    red_turtle.left(45 + (25 - k))
+    red_turtle.forward(11)
+    red_turtle.right(45)
+    red_turtle.pen_down()
+    size2 = size2 - 12
 
 window.close_on_mouse_click()
