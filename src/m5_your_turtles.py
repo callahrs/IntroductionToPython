@@ -56,10 +56,10 @@ size2 = 150
 for k in range(25):
     red_turtle.draw_square(size2)
     red_turtle.pen_up()
-    red_turtle.left(45 + (25 - k))
+    red_turtle.left(45 +  k)
     red_turtle.forward(11)
     red_turtle.right(45)
     red_turtle.pen_down()
-    size2 = size2 - 12
+    size2 = size2 - 6
 
 window.close_on_mouse_click()
