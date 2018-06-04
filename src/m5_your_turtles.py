@@ -46,7 +46,7 @@ for k in range(25):
 
 red_turtle = rg.SimpleTurtle('arrow')
 red_turtle.pen = rg.Pen('red', 2)
-red_turtle.speed = 10  # Fast
+red_turtle.speed = 10
 red_turtle.pen_up()
 red_turtle.left(45)
 red_turtle.backward(350)
@@ -56,7 +56,7 @@ size2 = 150
 for k in range(25):
     red_turtle.draw_square(size2)
     red_turtle.pen_up()
-    red_turtle.left(45 +  k)
+    red_turtle.left(45 + k)
     red_turtle.forward(11)
     red_turtle.right(45)
     red_turtle.pen_down()
