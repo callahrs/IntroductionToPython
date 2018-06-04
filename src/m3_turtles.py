@@ -74,11 +74,6 @@ matt.backward(50)
 matt.left(90)
 matt.forward(50)
 
-dave.left(90)
-dave.forward(132)
-matt.right(127)
-matt.backward(59)
-
 ########################################################################
 #
 # TODO: 3.
@@ -92,6 +87,11 @@ matt.backward(59)
 #   As always, test by running the module.
 #
 ########################################################################
+
+dave.left(90)
+dave.forward(132)
+matt.right(127)
+matt.backward(59)
 
 ########################################################################
 #
